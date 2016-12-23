@@ -3,7 +3,7 @@
 This python module is a simple wrapper for AppleScript to be used in python scripts. It can send iMessages and SMS messages programatically - nothing special. Decided to release it since a few people were asking for it.
 
 ### Requirements
-__Absolutely none!__ However, since this is in AppleScript, it's obvious you have to have a Macintosh machine to use it.
+~~__Absolutely none!__~~ Apparently, you have to have the Messages app open. Initially using the script will just launch the Messages app, but it leaves it in an unstable state. Just ensure the Messages app is running in the background when using this module.
 
 ### Example
 ```python
